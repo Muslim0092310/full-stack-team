@@ -1,0 +1,51 @@
+#section-2 {
+  background-color: #fff;
+}
+.s1 {
+  width: 500px;
+  animation: girl 1s ease-in-out alternate;
+  bottom: 8px;
+  padding-top: 90px;
+}
+.se-1-1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 720px;
+  position: relative;
+  bottom: 420px;
+  button {
+    background-color: #f0e71433;
+    color: black;
+    width: 115px;
+    height: 39px;
+    border-radius: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: Inter;
+    margin-bottom: 10px;
+    animation: btn 1s ease-in-out alternate;
+  }
+  h1 {
+    color: black;
+    font-size: 40px;
+    line-height: 56px;
+    font-weight: 600;
+  }
+  p {
+    color: #555c68;
+    margin-top: 20px;
+  }
+  .button1 {
+    color: #f6ef1bba;
+    background: #2e2d24;
+    font-size: 18px;
+    border-radius: 100px;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-top: 20px;
+    border: none;
+  }
+}

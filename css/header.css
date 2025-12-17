@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  background-image: url(./);
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Headar */
+.header {
+  padding: 20px 0;
+  background-image: url(./ernaz.img/bacraund.png);
+  margin-left: 90px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.logo .rise {
+  color: #ffeb3b;
+}
+
+.logo .creative {
+  color: #fff;
+  margin-left: 4px;
+  font-weight: 400;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 42px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav a.active {
+  border-bottom: 2px solid #ffeb3b;
+}
+
+.auth button {
+  border: none;
+  padding: 10px 18px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.sign-in {
+  background: transparent;
+  color: #fff;
+  border-radius: 9px #fff;
+}
+
+.sign-up {
+  background: #f0e714;
+  color: #111111;
+  margin-left: 10px;
+}
